@@ -6,6 +6,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <audio id="sound"></audio>
+    <div class="container">
+      <div class="search-box">
+        <input type="text" placeholder="Type the word here" id="inp-word" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="result">
+        <div class="word">
+          <h3>Example</h3>
+          <button>
+            <iconify-icon
+              icon="bi:volume-up-fill"
+              width="48"
+              height="48"
+              style="color: #0461e8"
+            ></iconify-icon>
+          </button>
+        </div>
+        <div class="details">
+          <p>POS</p>
+          <p>/sample/</p>
+        </div>
+        <p class="word-meaning">
+          lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eum
+        </p>
+        <p class="word-example">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
